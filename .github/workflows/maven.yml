@@ -47,5 +47,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/calculator:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/calculator:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/calculator1:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/calculator1:${{ github.sha }}
